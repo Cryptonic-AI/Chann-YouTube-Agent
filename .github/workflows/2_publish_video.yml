@@ -1,0 +1,38 @@
+name: 2 - Assemble & Publish Video
+
+on:
+  workflow_dispatch: {}  # you tap "Run workflow" once your images are uploaded
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system dependencies (ffmpeg)
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check all required images are present
+        run: python scripts/check_slides_present.py
+
+      - name: Generate narration audio
+        run: python scripts/generate_audio.py
+
+      - name: Assemble final video
+        run: python scripts/build_video.py
+
+      - name: Upload to YouTube
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+        run: python scripts/upload_youtube.py
