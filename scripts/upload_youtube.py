@@ -61,7 +61,7 @@ def main():
             "categoryId": "27",  # Education
         },
         "status": {
-            "privacyStatus": "public",
+            "privacyStatus": "private",  # change to "public" once you trust the pipeline
             "selfDeclaredMadeForKids": False,
         },
     }
