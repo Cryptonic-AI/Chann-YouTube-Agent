@@ -1,4 +1,4 @@
-edge-tts==6.1.12
+edge-tts>=7.2.1
 mutagen==1.47.0
 moviepy==2.1.2
 google-auth-oauthlib==1.2.1
