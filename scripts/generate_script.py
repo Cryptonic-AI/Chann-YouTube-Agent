@@ -71,6 +71,22 @@ exactly this shape:
 """
 
 
+def list_available_models():
+    url = f"https://generativelanguage.googleapis.com/v1beta/models?key={GEMINI_API_KEY}"
+    try:
+        with urllib.request.urlopen(url, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        names = [
+            m["name"] for m in data.get("models", [])
+            if "generateContent" in m.get("supportedGenerationMethods", [])
+        ]
+        print("Models available to this API key that support generateContent:")
+        for n in names:
+            print(f"  - {n}")
+    except Exception as e:
+        print(f"Could not list models: {e}")
+
+
 def call_gemini(prompt: str) -> str:
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
@@ -86,6 +102,7 @@ def call_gemini(prompt: str) -> str:
     except urllib.error.HTTPError as e:
         error_body = e.read().decode("utf-8", errors="replace")
         print(f"Gemini API returned HTTP {e.code}:\n{error_body}")
+        list_available_models()
         raise
 
     return data["candidates"][0]["content"]["parts"][0]["text"]
@@ -125,3 +142,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
