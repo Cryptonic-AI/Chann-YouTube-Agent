@@ -22,6 +22,7 @@ import os
 import json
 import re
 import urllib.request
+import urllib.error
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 MODEL = "gemini-2.5-flash"
@@ -79,8 +80,13 @@ def call_gemini(prompt: str) -> str:
     req = urllib.request.Request(
         API_URL, data=body, headers={"Content-Type": "application/json"}
     )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        error_body = e.read().decode("utf-8", errors="replace")
+        print(f"Gemini API returned HTTP {e.code}:\n{error_body}")
+        raise
 
     return data["candidates"][0]["content"]["parts"][0]["text"]
 
