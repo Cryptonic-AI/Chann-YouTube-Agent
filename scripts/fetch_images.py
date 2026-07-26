@@ -22,6 +22,7 @@ import json
 import time
 import urllib.parse
 import urllib.request
+import urllib.error
 
 BASE_DIR = os.path.join(os.path.dirname(__file__), "..")
 SCRIPT_PATH = os.path.join(BASE_DIR, "data", "script.json")
@@ -78,10 +79,15 @@ def generate_image(prompt: str, reference_url: str, out_path: str, retries: int 
             with open(out_path, "wb") as f:
                 f.write(data)
             return
+        except urllib.error.HTTPError as e:
+            error_body = e.read().decode("utf-8", errors="replace")[:500]
+            last_error = f"HTTP {e.code}: {error_body}"
+            print(f"  attempt {attempt} failed: {last_error}")
+            time.sleep(8)
         except Exception as e:
             last_error = e
             print(f"  attempt {attempt} failed: {e}")
-            time.sleep(5)
+            time.sleep(8)
     raise RuntimeError(f"Failed to generate image for prompt after {retries} attempts: {last_error}")
 
 
