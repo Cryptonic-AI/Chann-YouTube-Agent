@@ -1,20 +1,19 @@
 """
 fetch_images.py
 -----------------
-Automatically generates every scene image (and the thumbnail background)
-using Pollinations.ai's free `kontext` image-to-image model, which takes
-a reference image URL + a text prompt and produces a new image keeping
-the subject consistent.
+Generates every scene image (and the thumbnail background) using
+Pollinations.ai's free `flux` text-to-image model.
 
-This replaces the manual "generate in the Gemini app" step — everything
-here runs unattended in GitHub Actions.
-
-Reference character image must be publicly reachable (repo set to
-Public), at: assets/character/reference.png
+No reference image / image-to-image editing is used here (that
+capability, `kontext`, has moved on and off Pollinations' paid tier
+multiple times in 2026 and isn't reliable to depend on for free).
+Instead, character consistency comes from reusing an identical, highly
+detailed character description in every single prompt — the outfit,
+hair, and art style should stay consistent; exact facial likeness may
+vary slightly frame to frame, same as any text-only AI art generator.
 
 No API key required for basic use. Optional: set POLLINATIONS_TOKEN as
-a repo secret (free, from auth.pollinations.ai) to remove the watermark
-and raise rate limits.
+a repo secret (free, from enter.pollinations.ai) for higher rate limits.
 """
 
 import os
@@ -29,51 +28,36 @@ SCRIPT_PATH = os.path.join(BASE_DIR, "data", "script.json")
 SLIDES_DIR = os.path.join(BASE_DIR, "data", "slides")
 
 W, H = 1920, 1080
+MODEL = "flux"
 
+# Be as specific as possible here — this exact text is repeated in every
+# single image prompt, so it's doing all the work of keeping the look
+# consistent since there's no reference image to lock it in.
 CHARACTER_DESCRIPTION = (
-    "A young man with short dark hair, glasses, a maroon button-up shirt, "
-    "dark navy trousers, and brown shoes. Flat cartoon illustration style "
-    "with bold black outlines, soft cel-shading, on a solid warm yellow "
-    "background. Keep the character's face, hair, and outfit identical to "
-    "the reference image in every generation."
+    "A young man character named Alex: short neat dark brown hair, "
+    "black rectangular glasses, light skin tone, friendly expression. "
+    "Wearing a maroon/burgundy button-up collared shirt with sleeves "
+    "rolled to the elbow, dark navy blue trousers, brown leather shoes. "
+    "Flat cartoon illustration style, bold clean black outlines, soft "
+    "cel-shading, simple warm yellow solid background, no clutter."
 )
 
 POLLINATIONS_TOKEN = os.environ.get("POLLINATIONS_TOKEN")  # optional
 
 
-def reference_image_url() -> str:
-    """Builds the raw GitHub URL for the reference character image.
-    Requires the repo to be Public and GITHUB_REPOSITORY env var (set
-    automatically by GitHub Actions)."""
-    repo = os.environ.get("GITHUB_REPOSITORY")  # e.g. "yourname/youtube-story-agent"
-    branch = os.environ.get("GITHUB_REF_NAME", "main")
-    if not repo:
-        raise RuntimeError(
-            "GITHUB_REPOSITORY env var not set — run this inside GitHub "
-            "Actions, or set it manually for local testing."
-        )
-    return f"https://raw.githubusercontent.com/{repo}/{branch}/assets/character/reference.png"
-
-
-def generate_image(prompt: str, reference_url: str, out_path: str, retries: int = 3):
-    params = {
-        "model": "kontext",
-        "image": reference_url,
-        "width": W,
-        "height": H,
-        "nologo": "true" if POLLINATIONS_TOKEN else "false",
-        "safe": "true",
-    }
-    if POLLINATIONS_TOKEN:
-        params["token"] = POLLINATIONS_TOKEN
-
+def generate_image(prompt: str, out_path: str, retries: int = 3):
+    params = {"model": MODEL, "width": W, "height": H, "nologo": "true", "safe": "true"}
     encoded_prompt = urllib.parse.quote(prompt)
     url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?{urllib.parse.urlencode(params)}"
+
+    headers = {"User-Agent": "youtube-story-agent"}
+    if POLLINATIONS_TOKEN:
+        headers["Authorization"] = f"Bearer {POLLINATIONS_TOKEN}"
 
     last_error = None
     for attempt in range(1, retries + 1):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "youtube-story-agent"})
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=120) as resp:
                 data = resp.read()
             with open(out_path, "wb") as f:
@@ -95,17 +79,15 @@ def main():
     with open(SCRIPT_PATH, encoding="utf-8") as f:
         script = json.load(f)
 
-    ref_url = reference_image_url()
     os.makedirs(SLIDES_DIR, exist_ok=True)
 
-    # Thumbnail background (text gets overlaid separately for crisp readability)
     thumb_prompt = (
         f"{CHARACTER_DESCRIPTION} The character reacts with excitement/surprise "
         f"to: {script['scenes'][0]['visual_description']}. "
         f"16:9 landscape, eye-catching thumbnail composition, no text."
     )
     print("Generating thumbnail background...")
-    generate_image(thumb_prompt, ref_url, os.path.join(SLIDES_DIR, "thumbnail_bg.png"))
+    generate_image(thumb_prompt, os.path.join(SLIDES_DIR, "thumbnail_bg.png"))
 
     for i, scene in enumerate(script["scenes"]):
         prompt = (
@@ -114,10 +96,12 @@ def main():
         )
         out_path = os.path.join(SLIDES_DIR, f"scene_{i:03d}.png")
         print(f"Generating scene_{i:03d}...")
-        generate_image(prompt, ref_url, out_path)
+        generate_image(prompt, out_path)
 
     print(f"\nAll {len(script['scenes']) + 1} images generated.")
 
 
 if __name__ == "__main__":
     main()
+
+
