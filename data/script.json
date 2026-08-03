@@ -1,222 +1,216 @@
 {
-  "title": "Why Your Brain Replays Cringe Memories at 3 AM",
-  "thumbnail_text_top": "WHY DOES YOUR BRAIN",
-  "thumbnail_text_bottom": "REPLAY CRINGE AT 3AM?",
+  "title": "Why You Walk Into a Room and Instantly Forget What You Came For",
+  "thumbnail_text_top": "WHY YOU FORGET",
+  "thumbnail_text_bottom": "THE DOORWAY EFFECT EXPLAINED",
   "scenes": [
     {
-      "narration": "Picture this: it’s 2:15 in the morning. You’re finally wrapped up in your blanket, completely cozy, and slowly drifting off into a peaceful sleep. Your body is totally relaxed, your breathing slows down, and right as your brain is about to power off... BAM. A sudden, high-definition memory hits you out of nowhere.",
-      "visual_description": "A dark bedroom with soft blue moonlight filtering through the blinds. A person lies in bed under a duvet, cozy with eyes closed, before suddenly snapping their eyes wide open in sheer realization.",
-      "pose": "shocked",
-      "narrator_present": false
-    },
-    {
-      "narration": "Suddenly, you vividly remember that time in middle school when you waved back at someone who was actually waving at the person standing directly behind you. Your face flushes hot, you groan into your pillow, and you stare at the ceiling wondering why your own brain hates you.",
-      "visual_description": "A flashback scene in a crowded school hallway. A young teenager vigorously waves back at a classmate, only to realize the classmate was waving to a friend behind them. The teenager freezes in extreme awkwardness.",
+      "narration": "Picture this: you are sitting comfortably on your couch, enjoying a show, when you suddenly realize you need a glass of water. You get up, walk down the hallway, step into the kitchen, open the refrigerator door, and then... absolute, total silence in your brain.",
+      "visual_description": "A cozy living room shifts to a warmly lit kitchen late at night. A young adult opens a glowing refrigerator door, staring blankly into the cold light with a completely empty expression.",
       "pose": "confused",
       "narrator_present": false
     },
     {
-      "narration": "If this has ever happened to you, don’t worry—you’re not crazy, and you’re definitely not alone. Millions of us experience these late-night cringe attacks on a regular basis. But why does our brain do this, why always at night, and is there an actual biological reason for it?",
-      "visual_description": "The warm-toned YouTube presenter sitting on a cozy living room sofa, holding a mug, looking directly at the camera with a sympathetic and warm smile.",
-      "pose": "explaining",
-      "narrator_present": true
-    },
-    {
-      "narration": "Today, we are diving into the fascinating neuroscience and evolutionary psychology behind why your memory bank loves to replay your most awkward moments, why you feel them so intensely, and how you can actually train your brain to stop doing it.",
-      "visual_description": "A stylish motion graphic illustration showing a human head outline with glowing neon circuits and a projector lens inside the forehead replaying a small film reel of awkward moments.",
-      "pose": "pointing",
-      "narrator_present": false
-    },
-    {
-      "narration": "To understand why a ten-year-old memory can still make your face burn, we first have to talk about how your brain stores memories in the first place. Because as it turns out, not all memories are created equal inside your skull.",
-      "visual_description": "The presenter sitting at a wooden desk with colorful brain models and books, speaking directly to the viewer with engaging hand gestures.",
-      "pose": "explaining",
-      "narrator_present": true
-    },
-    {
-      "narration": "Think about what you ate for lunch three weeks ago on a random Tuesday. Chances are, you have absolutely no idea. That’s because mundane, everyday details get tossed straight into the brain's mental recycling bin almost immediately.",
-      "visual_description": "A person sitting at a kitchen table looking thoughtfully at a blank calendar plate, scratching their head in confusion as a animated recycling bin icon pops up.",
-      "pose": "thinking",
-      "narrator_present": false
-    },
-    {
-      "narration": "But now think about the time you accidentally dropped your lunch tray in a packed cafeteria, or said 'You too!' to the movie theater worker who told you to enjoy the film. You probably remember every single detail with terrifying clarity.",
-      "visual_description": "A young adult at a movie theater concession stand taking popcorn from a worker, saying something with a nervous smile, and instantly realizing their mistake with wide eyes.",
-      "pose": "shocked",
-      "narrator_present": false
-    },
-    {
-      "narration": "You remember the exact lighting, the ambient noise, and that sudden, intense surge of heat in your chest. This happens because of a tiny almond-shaped structure deep inside your brain called the amygdala.",
-      "visual_description": "A 3D anatomical diagram of the human brain zooming in on the glowing red almond-shaped amygdala near the brainstem.",
-      "pose": "pointing",
-      "narrator_present": false
-    },
-    {
-      "narration": "The amygdala is your brain’s emotional alarm system, and its main job is to tag moments with strong emotional significance so you never forget them. It acts like a high-priority filing system.",
-      "visual_description": "The presenter holding up a bright red stamp with the word 'CRITICAL' on it, stamping a file folder playfully toward the camera.",
-      "pose": "explaining",
-      "narrator_present": true
-    },
-    {
-      "narration": "When you experience something embarrassing, your amygdala triggers a mini stress response, releasing hormones like cortisol and adrenaline. It basically stamps that memory with a huge label: 'IMPORTANT! DO NOT ERASE!'",
-      "visual_description": "An artistic comic-style graphic of a nervous brain surrounded by floating red warning stamps, lightning bolts, and tiny cortisol molecules buzzing around.",
-      "pose": "shocked",
-      "narrator_present": false
-    },
-    {
-      "narration": "Wait, survival? How on earth is messing up a high-five in front of your coworkers a matter of life and death? To answer that, we have to travel back thousands of years to our early human ancestors.",
-      "visual_description": "The presenter standing leaning against a wall, crossing arms, looking genuinely curious and amused.",
-      "pose": "thinking",
-      "narrator_present": true
-    },
-    {
-      "narration": "Back in hunter-gatherer times, human beings relied entirely on the tribe for survival. Being part of a group meant protection from dangerous predators, shared food, warmth, and shelter. Leaving or being kicked out was essentially a death sentence.",
-      "visual_description": "A cinematic illustration of ancient early humans gathered around a campfire at dusk, sharing food and working together in a lush prehistoric forest.",
-      "pose": "explaining",
-      "narrator_present": false
-    },
-    {
-      "narration": "Social acceptance wasn't just nice to have—it was a biological necessity. If you did something that offended the tribe, broke social norms, or made you look incompetent, you risked social rejection.",
-      "visual_description": "An ancient tribal member standing at the edge of the camp looking back worriedly as the rest of the tribe turns away, symbolizing exclusion.",
-      "pose": "thinking",
-      "narrator_present": false
-    },
-    {
-      "narration": "Because of this, our brains evolved an extreme sensitivity to social blunders. Neuroscientists have found that social pain activates the exact same neural pathways in the brain as physical pain. To your brain, embarrassment is treated like a physical wound.",
-      "visual_description": "A split screen comparing a brain scan showing pain centers lighting up from a stubbed toe on the left, and the exact same brain region lighting up from social rejection on the right.",
-      "pose": "pointing",
-      "narrator_present": false
-    },
-    {
-      "narration": "So when you remember calling your teacher 'Mom' in fifth grade, your primitive brain isn't trying to torture you for fun. It’s reviewing a perceived social failure to ensure you never repeat it and risk getting kicked out of the tribe!",
-      "visual_description": "The presenter leaning close to the camera with an amused, empathetic expression, shrugging hands in realization.",
-      "pose": "explaining",
-      "narrator_present": true
-    },
-    {
-      "narration": "Okay, that explains why social mistakes feel so intensely painful, but why on earth does your brain choose 2 AM right when you're trying to go to sleep to play this cringe mixtape?",
-      "visual_description": "A bedside nightstand featuring a digital clock reading 2:07 AM, with a person sitting up in bed, looking exasperated and running a hand through their hair.",
+      "narration": "You stare at a tub of butter and a jar of pickles like they hold the secrets to the universe. You literally have zero idea why you are standing there. You're not hungry, you're not cold, and yet your body transported you here for a mysterious purpose that has now vanished.",
+      "visual_description": "Close-up shot inside the refrigerator looking outward at the person, who is squinting in deep confusion while gently touching a carton of milk, trying to guess what brought them here.",
       "pose": "confused",
       "narrator_present": false
     },
     {
-      "narration": "During the daytime, your brain is bombarded with external sensory inputs. You’re looking at screens, navigating traffic, talking to friends, answering emails, and deciding what to eat. Your prefrontal cortex is completely occupied with the outside world.",
-      "visual_description": "A fast-paced montage of modern daily life: typing on a laptop, walking down a noisy city street, talking on a phone, dodging traffic, and looking at bright screens.",
-      "pose": "explaining",
-      "narrator_present": false
-    },
-    {
-      "narration": "This constant flood of real-time data keeps your brain's internal focus quiet. But the moment you lay down in a dark, quiet room and turn off your phone, all those external distractions disappear into total silence.",
-      "visual_description": "A smartphone screen being tapped off, plunging a dimly lit room into complete quiet dark blue night tones.",
-      "pose": "thinking",
-      "narrator_present": false
-    },
-    {
-      "narration": "With nothing left to process externally, your brain activates a special network of interconnected brain regions called the Default Mode Network, or DMN. The DMN kicks in whenever you daydream, introspect, or think about yourself.",
-      "visual_description": "A glowing visual of a human brain showing a highlighted network of connected nodes lighting up across the cortical areas in soft magenta and cyan light.",
-      "pose": "pointing",
-      "narrator_present": false
-    },
-    {
-      "narration": "Think of the Default Mode Network like an idle screensaver for your mind. When you're not actively solving a task, the DMN turns the camera inward, sifting through your past memories, your identity, and your social standing.",
-      "visual_description": "The presenter sitting comfortably in an armchair, using hand gestures to demonstrate turning a camera inward toward themselves.",
+      "narration": "If this has happened to you—and let's be honest, it happens to every single human on Earth at least once a week—you've probably had that terrifying split-second thought: 'Is my brain failing? Am I losing my mind at age twenty-five?'",
+      "visual_description": "The narrator stands in a warm, friendly studio setup with wooden shelves and soft ambient lighting, holding a coffee mug and smiling knowingly directly into the camera.",
       "pose": "explaining",
       "narrator_present": true
     },
     {
-      "narration": "At the exact same time, as you get tired, your prefrontal cortex—the logical, adult part of your brain that normally says 'Hey, calm down, nobody even remembers that'—starts to power down first.",
-      "visual_description": "A humorous conceptual graphic of a tiny brain worker wearing a suit sitting at a control desk labeled 'Prefrontal Cortex', hanging up a 'Gone to Sleep' sign and turning off the lights.",
+      "narration": "Well, I have great news for you. Your brain is not broken, you do not have early-onset memory loss, and you aren't losing your mind. In fact, what you just experienced is proof that your brain is working exactly the way it was designed to.",
+      "visual_description": "The narrator takes a sip of coffee, points cheerfully at the camera with a reassuring expression, relaxing against a studio desk.",
+      "pose": "happy",
+      "narrator_present": true
+    },
+    {
+      "narration": "Psychologists and neuroscientists actually have a formal scientific name for this bizarre mental glitch. They call it the 'Doorway Effect' or, more formally, the Event Boundary Effect. And the story of why your brain does this is equal parts fascinating and hilarious.",
+      "visual_description": "A sleek, stylized motion graphic showing a minimalist glowing doorway floating in a dark space, with abstract colorful thought-bubbles dissolving the moment they pass through the doorframe.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "To understand why passing through a simple doorframe wipes your short-term memory clean, we first have to take a look at how your brain manages day-to-day information. Think of your mind like a computer, but one with surprisingly tiny RAM memory.",
+      "visual_description": "The narrator leans forward on the desk, holding up two fingers to emphasize a point while animated retro computer icons pop up around his head.",
+      "pose": "explaining",
+      "narrator_present": true
+    },
+    {
+      "narration": "Your short-term memory—often called working memory—can only hold a handful of items at any given second. Most researchers estimate that your active focus can only process about four to seven distinct thoughts before it starts dropping things.",
+      "visual_description": "A humorous illustration of a cartoon brain juggling seven glowing glowing balls labeled 'Keys', 'Text Mom', 'Podcast', 'Song Lyric', 'What to Eat', 'Dog Bark', and 'Phone Charger'. The brain is sweating profusely.",
+      "pose": "thinking",
+      "narrator_present": false
+    },
+    {
+      "narration": "Because space in your short-term memory is so insanely limited, your brain has to be an aggressive housekeeper. It cannot afford to store every single detail of your life in active memory, or your mind would literally crash from information overload.",
+      "visual_description": "A busy office setting where a worker is frantically throwing old paper files into a roaring paper shredder while new memo papers keep raining down from the ceiling.",
+      "pose": "shocked",
+      "narrator_present": false
+    },
+    {
+      "narration": "So, how does your brain decide what to keep in active memory and what to throw into the recycling bin? It uses environmental context clues. And the biggest context clue of all is changing your physical location.",
+      "visual_description": "The narrator stands in front of a chalkboard painted wall, drawing a simple diagram of a house with arrows moving from room to room, pointing out the doorways with chalk.",
+      "pose": "pointing",
+      "narrator_present": true
+    },
+    {
+      "narration": "Imagine you're in your home office typing up a work email. While sitting at your desk, your brain creates an active file folder called 'Office Work'. It keeps relevant thoughts active: your password, the deadline, the client's name, and the draft in front of you.",
+      "visual_description": "A young professional sitting at a tidy desk with a computer monitor, furiously typing away, surrounded by neat stacks of notebooks and a desk lamp.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "Then, you notice your throat is dry. You form a goal: 'Go to the kitchen and grab a glass of water.' You stand up, leave your office, and walk down the hallway toward the kitchen door.",
+      "visual_description": "The worker stands up from the desk, stretches, looks toward the open office door, and starts walking toward the brightly lit hallway outside.",
       "pose": "happy",
       "narrator_present": false
     },
     {
-      "narration": "So late at night, you have an active Default Mode Network searching your memories, an emotional alarm system ready to flare up, and zero logical supervision. It is the absolute perfect storm for a cringe attack.",
-      "visual_description": "The presenter making a dramatic 'mind blown' gesture with hands expanding near their head, looking lightheartedly shocked.",
+      "narration": "The moment you cross the threshold of the kitchen doorway, your brain detects a sudden shift in environment. The lighting changes, the sounds change, the smells change, and the visual geometry around you completely transforms.",
+      "visual_description": "A close-up slow-motion shot of a foot stepping across a wooden doorway threshold into a tiled kitchen space, with subtle light rays shifting around the ankle.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "Your brain interprets this physical doorway as an 'Event Boundary.' It effectively tells itself: 'Okay, scene change! We have left the office environment and entered the kitchen environment. Time to file away the old scene and purge the temporary working buffer!'",
+      "visual_description": "The narrator mimics a movie director using a film clapperboard, snapping it shut directly in front of the lens with a wide, dramatic grin.",
       "pose": "shocked",
       "narrator_present": true
     },
     {
-      "narration": "To make matters even more intense, your brain uses bedtime to do essential filing work. Right before you enter deep sleep, your brain begins sifting through emotional events to decide what to keep long-term.",
-      "visual_description": "An abstract, dreamy visual of glowing memory spheres floating through a quiet starry space inside a brain silhouette.",
+      "narration": "In a fraction of a millisecond, your brain dumps the contents of your short-term working memory to make room for whatever new information the kitchen might demand. It flushes the cache. And unfortunately, your mental note about the glass of water gets flushed right down with it.",
+      "visual_description": "An animation of a digital trash bin icon on a desktop interface emptying out little glowing text bubbles that read 'Get Water' and 'Find Scissors' into a digital vortex.",
       "pose": "thinking",
       "narrator_present": false
     },
     {
-      "narration": "And here is the absolute wild part that neuroscientists only recently figured out: every single time you recall a memory, your brain doesn't just read a static file off a hard drive. It actually rebuilds that memory from scratch.",
-      "visual_description": "The presenter holding an old film reel, opening it up and demonstrating holding a strip of film up to the light thoughtfully.",
+      "narration": "This isn't just a theory; scientists proved this in a famous series of experiments conducted at the University of Notre Dame by psychologist Dr. Gabriel Radvansky.",
+      "visual_description": "The narrator sitting comfortably on the edge of the studio desk, holding a printed scientific research paper and gesturing thoughtfully to the side.",
       "pose": "explaining",
       "narrator_present": true
     },
     {
-      "narration": "This biological phenomenon is known as memory reconsolidation. Whenever an embarrassing memory pops up, the emotional state you feel RIGHT NOW gets re-encoded into the memory, making it feel just as fresh and painful as the day it happened!",
-      "visual_description": "A digital illustration of a glowing blue memory file being opened, edited with a red glowing pen, and saved back into a vault with extra heat aura around it.",
+      "narration": "Dr. Radvansky had college students participate in a virtual reality study where they carried virtual items from table to table inside a simulated building. Sometimes they carried an item across a large single room, and other times they walked the exact same distance, but through a doorway into an adjacent room.",
+      "visual_description": "A university lab setting where a student wearing a VR headset and holding motion controllers walks across a grid pattern on the floor, while researchers watch data on computer monitors.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "The results were incredible. Every single time participants walked through a virtual doorway, their memory of the item they were carrying plummeted compared to when they walked the same physical distance across a single giant room.",
+      "visual_description": "A crisp bar graph showing two contrasting bars: a high memory retention bar for 'Same Room' and a significantly lower bar labeled 'Passed Through Doorway'.",
       "pose": "pointing",
       "narrator_present": false
     },
     {
-      "narration": "If you lie in bed sweating, cringing, and beating yourself up, your brain notes: 'Wow, this memory made us panic again tonight! It must still be super dangerous! Let's keep it in the high-priority folder!'",
-      "visual_description": "A person lying in bed pulling the covers over their face in utter agony, with a cartoon panic bubble floating above their head.",
+      "narration": "What was even wilder was that Radvansky repeated the experiment in real life using actual physical rooms and shoeboxes with objects hidden inside. The exact same thing happened! Crossing a physical doorway made people significantly more likely to forget what was inside their box.",
+      "visual_description": "A person in a hallway holding a closed shoebox, staring down at it with a look of humorous realization as they pause halfway through a doorway.",
       "pose": "confused",
       "narrator_present": false
     },
     {
-      "narration": "There is also a classic psychological trick your mind is playing on you called 'The Spotlight Effect.' Psychological studies prove that we consistently overestimate how much other people notice and remember our awkward moments.",
-      "visual_description": "A person standing in the middle of a city street with a massive bright stadium spotlight shining down exclusively on them while passersby walk past ignoring them completely.",
-      "pose": "pointing",
-      "narrator_present": false
-    },
-    {
-      "narration": "In a famous experiment at Cornell University, researchers made students wear an embarrassingly loud t-shirt into a room full of strangers. The shirt wearers estimated that at least 50% of people noticed. In reality? Less than 20% even blinked.",
-      "visual_description": "A student nervously walking into a college seminar wearing a shirt with a gigantic bright yellow goofy face, while other students around desks are casually reading their textbooks without looking up.",
-      "pose": "explaining",
-      "narrator_present": false
-    },
-    {
-      "narration": "The absolute truth is, everyone else is way too busy worrying about their own awkward moments to remember yours! That cringey thing you did five years ago? The other people involved haven't thought about it for a single second since.",
-      "visual_description": "The presenter leaning forward smiling, pointing directly at the camera with a reassuring, friendly expression.",
-      "pose": "happy",
+      "narration": "And here is the absolute wildest part of the study: even when participants walked through a doorway into a new room and then immediately turned around and walked back into the original room, their memory didn't instantly return! The act of passing through the door had already triggered the memory purge.",
+      "visual_description": "The narrator scratching his head with a wide, shocked expression, leaning close into the camera with comedic intensity.",
+      "pose": "shocked",
       "narrator_present": true
     },
     {
-      "narration": "So now that we know why our brains launch these 3 AM cringe attacks, how do we actually stop them? Luckily, neuroscientists and psychologists have discovered a few simple hacks you can use right in bed.",
-      "visual_description": "A cozy bedroom setting with soft yellow accent lighting, showing a person sitting up calmly against pillows, looking relaxed.",
-      "pose": "explaining",
-      "narrator_present": false
-    },
-    {
-      "narration": "First, use the power of memory reconsolidation against itself. When an embarrassing memory surfaces, deliberately rewrite the scene in your head. Imagine the whole thing played back in super slow motion with silly circus music playing in the background.",
-      "visual_description": "A whimsical animated sequence replaying a clumsy fall, but in black-and-white silent movie style with funny large text cards and clown shoes added to the person.",
-      "pose": "happy",
-      "narrator_present": false
-    },
-    {
-      "narration": "By actively adding humor or absurdity to the memory while it’s open in your mind, you strip away the threat response. When your brain re-saves the memory, it stores it with a much weaker emotional charge, neutralizing the cringe for good.",
-      "visual_description": "The presenter tapping their temple intelligently while smiling, explaining the mental strategy with clear enthusiasm.",
+      "narration": "Now, you might be asking: why on earth would evolution give us a brain that forgets what we're doing every time we walk into the kitchen? Isn't that an annoying evolutionary flaw?",
+      "visual_description": "The narrator walking across the studio space, gesturing with open hands in a classic 'why' posture, looking curiously toward the viewer.",
       "pose": "thinking",
       "narrator_present": true
     },
     {
-      "narration": "Second, practice radical self-compassion. Instead of gasping and hiding under your blanket, literally whisper to yourself: 'I was younger, I was learning, and it’s totally fine.' Treat yourself with the same kindness you'd offer a friend.",
-      "visual_description": "A person in bed placing a hand gently over their heart, taking a deep, peaceful breath out and relaxing their shoulders onto the pillow.",
-      "pose": "happy",
-      "narrator_present": false
-    },
-    {
-      "narration": "Third, use the five-second rule for attention. Give the memory five seconds of recognition, thank your ancient brain for trying to protect your social survival, and then deliberately shift your focus to a calming mental image, like walking through a quiet pine forest.",
-      "visual_description": "A serene, beautiful first-person perspective shot walking slowly through a sunlit, peaceful pine forest with soft fog.",
+      "narration": "To answer that, we have to travel back about one hundred thousand years into our evolutionary past. Picture your early human ancestor living on the prehistoric savanna.",
+      "visual_description": "A beautifully rendered historical scene of a lush, ancient savanna landscape at sunrise, with tall grass swaying gently in the breeze.",
       "pose": "explaining",
       "narrator_present": false
     },
     {
-      "narration": "The next time your brain decides to hit play on your personal blooper reel at midnight, take a deep breath. Smile, remember that your brain is just an overprotective ancient system doing its job, and gently change the channel.",
-      "visual_description": "The presenter smiling warmly, sitting relaxed on the couch, giving a friendly thumbs up to the camera.",
+      "narration": "Back then, moving from one physical space to another—say, stepping out from the protection of a dark cave into the open grassland—was a matter of life or death. The environmental context completely shifted in a single step.",
+      "visual_description": "An early human ancestor standing at the mouth of a rocky cave, carefully peeking out from the shadow into the bright, open wilderness while holding a wooden staff.",
+      "pose": "thinking",
+      "narrator_present": false
+    },
+    {
+      "narration": "If your ancestor emerged into the open field still hyper-focused on 'where did I put that nice smooth rock inside the cave,' they wouldn't be paying attention to the saber-toothed cat hiding in the tall grass forty feet away.",
+      "visual_description": "A dramatic shot from low in the tall grass looking up at a stealthy prehistoric predator lurking silently, watching the edge of the cave entry.",
+      "pose": "shocked",
+      "narrator_present": false
+    },
+    {
+      "narration": "The human brain evolved 'Event Boundaries' so that whenever you enter a new environment, your brain immediately clears away internal chatter and prepares to absorb brand new environmental data. It's a survival mechanism designed to keep you alert!",
+      "visual_description": "The early human quickly turning head, eyes wide with razor-sharp focus, instantly scanning the new surroundings with complete environmental awareness.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "In the wild, resetting your short-term buffer kept you alive. But in the modern 21st-century world, where we live in houses filled with doors, hallways, partitions, and archways, this ancient survival system constantly trips us up over trivial tasks.",
+      "visual_description": "The narrator smiling sympathetically, holding up a sleek modern smartphone and gesturing toward a doorway in the background studio backdrop.",
+      "pose": "explaining",
+      "narrator_present": true
+    },
+    {
+      "narration": "And it gets even worse! In the digital age, we don't just deal with physical doorways. We now experience digital doorways dozens of times every hour.",
+      "visual_description": "A split screen showing a person opening a bedroom door on the left, and a finger tapping an app icon on a smartphone screen on the right.",
+      "pose": "pointing",
+      "narrator_present": false
+    },
+    {
+      "narration": "Have you ever unlocked your smartphone to check today's weather forecast, seen a notification from Instagram, clicked it, scrolled for fifteen minutes, locked your phone, and then realized you still have no idea if it's going to rain?",
+      "visual_description": "A young woman sitting on a couch, tapping her phone screen endlessly in a dim room, then suddenly stopping, staring at the screen, and facepalming in self-awareness.",
+      "pose": "confused",
+      "narrator_present": false
+    },
+    {
+      "narration": "That is the digital Doorway Effect! Switching from your home screen into a new app acts as a psychological event boundary. Your brain treats opening an app like walking into a brand new room, clearing out your original goal of checking the weather.",
+      "visual_description": "An animated graphic showing a smartphone screen where entering a new app morphs visually into passing through a glowing digital portal.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "So, now that we know why our brains constantly wipe our mental slates clean whenever we cross thresholds, how do we stop it? Is there a way to outsmart the Doorway Effect?",
+      "visual_description": "The narrator sitting back down at the studio desk, leaning forward with a lighthearted, secretive expression like sharing a clever life hack.",
+      "pose": "thinking",
+      "narrator_present": true
+    },
+    {
+      "narration": "The first trick is simple: give your goal a physical anchor. If you're walking into the bedroom to get a pair of scissors, hold your hands in a cutting motion like pair of scissors as you walk down the hall. That tactile feedback keeps the thought active in working memory.",
+      "visual_description": "A person walking down a hallway toward a door, playfully snapping their index and middle fingers together like tiny scissors with a focused, determined smile.",
+      "pose": "happy",
+      "narrator_present": false
+    },
+    {
+      "narration": "The second trick is verbal reinforcement. Simply say out loud what you're doing before you walk through the doorway: 'I am getting my phone charger.' Saying it out loud transfers the thought into auditory memory, which resists event boundaries much better.",
+      "visual_description": "A person standing in a living room, looking toward the door, clearly speaking out loud with a comical speech bubble popping up that reads: 'PHONE CHARGER!'",
+      "pose": "pointing",
+      "narrator_present": false
+    },
+    {
+      "narration": "And what should you do if you're already standing in the kitchen staring blankly into the fridge? Don't just stand there straining your brain. Walk back into the room where you originally had the thought!",
+      "visual_description": "The person at the open fridge closes the door, turns around, and walks back down the hallway into the cozy living room.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "Returning to the original environment reloads the mental context file. The moment your eyes see your couch and your television again, your brain reactivates the associated memory network, and boom: 'Right! The glass of water!'",
+      "visual_description": "The person steps back into the living room, looks at the couch, and suddenly snaps their fingers as a bright golden lightbulb lit icon illuminates above their head.",
+      "pose": "happy",
+      "narrator_present": false
+    },
+    {
+      "narration": "So the next time you find yourself standing motionless in front of an open cupboard feeling completely clueless, don't feel bad. You're not getting forgetful—your brain is just being an overly aggressive, super-efficient prehistoric survivor.",
+      "visual_description": "The narrator laughing warmly, pointing directly into the camera with a relaxed and friendly posture.",
       "pose": "happy",
       "narrator_present": true
     },
     {
-      "narration": "If you enjoyed this video and felt called out by it, hit that like button and subscribe for more deep dives into the weird things our minds do every day. Drop your funniest cringe memory in the comments below—let's share the pain!",
-      "visual_description": "An end screen design featuring the presenter smiling next to animated 'Subscribe' and 'Next Video' graphic buttons.",
-      "pose": "pointing",
+      "narration": "If you enjoyed learning about this strange little quirk of human psychology, hit that like button, subscribe for more fascinating breakdowns of everyday life, and tell me in the comments: what is the weirdest thing you've ever forgotten after walking into a room? Thanks for watching!",
+      "visual_description": "The narrator sitting at the studio desk, waving cheerfully as sleek animated subscribe button graphics and video end-screen suggestions pop up beside him.",
+      "pose": "happy",
       "narrator_present": true
     }
   ]
