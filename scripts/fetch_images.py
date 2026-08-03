@@ -30,16 +30,20 @@ SLIDES_DIR = os.path.join(BASE_DIR, "data", "slides")
 W, H = 1920, 1080
 MODEL = "flux"
 
+ART_STYLE = (
+    "Flat cartoon illustration style, bold clean black outlines, soft "
+    "cel-shading, simple warm yellow solid background, no clutter."
+)
+
 # Be as specific as possible here — this exact text is repeated in every
-# single image prompt, so it's doing all the work of keeping the look
-# consistent since there's no reference image to lock it in.
+# prompt where the narrator appears, so it's doing all the work of
+# keeping his look consistent since there's no reference image to lock
+# it in.
 CHARACTER_DESCRIPTION = (
     "A young man character named Alex: short neat dark brown hair, "
     "black rectangular glasses, light skin tone, friendly expression. "
     "Wearing a maroon/burgundy button-up collared shirt with sleeves "
-    "rolled to the elbow, dark navy blue trousers, brown leather shoes. "
-    "Flat cartoon illustration style, bold clean black outlines, soft "
-    "cel-shading, simple warm yellow solid background, no clutter."
+    "rolled to the elbow, dark navy blue trousers, brown leather shoes."
 )
 
 POLLINATIONS_TOKEN = os.environ.get("POLLINATIONS_TOKEN")  # optional
@@ -75,6 +79,24 @@ def generate_image(prompt: str, out_path: str, retries: int = 3):
     raise RuntimeError(f"Failed to generate image for prompt after {retries} attempts: {last_error}")
 
 
+def build_scene_prompt(scene: dict) -> str:
+    if scene.get("narrator_present", True):
+        return (
+            f"{ART_STYLE} The recurring narrator character, {CHARACTER_DESCRIPTION} "
+            f"appears in this scene. Scene: {scene['visual_description']}. "
+            f"16:9 landscape composition, no text overlay."
+        )
+    else:
+        # No forced character — let the scene depict whoever/whatever the
+        # story actually calls for (multiple people, objects, settings),
+        # just keep it in the same illustration style.
+        return (
+            f"{ART_STYLE} Scene: {scene['visual_description']}. Depict "
+            f"exactly the people/objects/setting described, however many "
+            f"that requires. 16:9 landscape composition, no text overlay."
+        )
+
+
 def main():
     with open(SCRIPT_PATH, encoding="utf-8") as f:
         script = json.load(f)
@@ -82,18 +104,19 @@ def main():
     os.makedirs(SLIDES_DIR, exist_ok=True)
 
     thumb_prompt = (
-        f"{CHARACTER_DESCRIPTION} The character reacts with excitement/surprise "
-        f"to: {script['scenes'][0]['visual_description']}. "
+        f"{ART_STYLE} The recurring narrator character, {CHARACTER_DESCRIPTION} "
+        f"reacts with excitement/surprise to: {script['scenes'][0]['visual_description']}. "
+        f"Full body shot, character positioned in the lower two-thirds of the "
+        f"frame and shifted slightly to one side, leaving the top third of the "
+        f"image as plain empty yellow background with nothing in it — that "
+        f"space is reserved for text and must stay completely clear. "
         f"16:9 landscape, eye-catching thumbnail composition, no text."
     )
     print("Generating thumbnail background...")
     generate_image(thumb_prompt, os.path.join(SLIDES_DIR, "thumbnail_bg.png"))
 
     for i, scene in enumerate(script["scenes"]):
-        prompt = (
-            f"{CHARACTER_DESCRIPTION} Scene: {scene['visual_description']}. "
-            f"16:9 landscape composition, no text overlay."
-        )
+        prompt = build_scene_prompt(scene)
         out_path = os.path.join(SLIDES_DIR, f"scene_{i:03d}.png")
         print(f"Generating scene_{i:03d}...")
         generate_image(prompt, out_path)
@@ -103,5 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
