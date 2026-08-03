@@ -22,9 +22,9 @@ SCRIPT_PATH = os.path.join(BASE_DIR, "data", "script.json")
 AUDIO_DIR = os.path.join(BASE_DIR, "data", "audio")
 DURATIONS_PATH = os.path.join(AUDIO_DIR, "durations.json")
 
-# A warm, natural-sounding free neural voice. Browse more with:
-#   edge-tts --list-voices
-VOICE = "en-US-GuyNeural"
+# A newer, more conversational/expressive free neural voice (less flat
+# than the older Guy voice). Browse more with: edge-tts --list-voices
+VOICE = "en-US-AndrewNeural"
 
 
 async def synthesize(text: str, out_path: str):
