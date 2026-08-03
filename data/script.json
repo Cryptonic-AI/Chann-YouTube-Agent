@@ -1,97 +1,223 @@
 {
-  "title": "Why Your Brain Attacks You With Cringe Memories Before Bed",
-  "thumbnail_text_top": "WHY YOUR BRAIN DOES THIS",
-  "thumbnail_text_bottom": "AT 3 AM",
+  "title": "Why Your Brain Replays Cringe Memories at 3 AM",
+  "thumbnail_text_top": "WHY DOES YOUR BRAIN",
+  "thumbnail_text_bottom": "REPLAY CRINGE AT 3AM?",
   "scenes": [
     {
-      "narration": "It is 11:45 PM. You are tucked into bed, cozy beneath three layers of blankets, and your body is finally melting into that sweet state of deep relaxation. Your eyes are heavy, your breathing slows down, and you are about ten seconds away from drifting off into a peaceful dream. And then, out of nowhere, your brain opens up a dusty filing cabinet from 2016 and pulls out a high-definition replay of that time you said 'You too!' to the waiter who told you to enjoy your food. Suddenly, your heart rate spikes, you curl into a tight ball under the covers, and you are wide awake feeling a wave of pure, unfiltered embarrassment.",
-      "visual_description": "The character is tucked comfortably in bed under blankets with dim ambient night light, eyes half closed, when suddenly their eyes snap wide open in sheer horror as a floating glowing thought bubble appears above showing a waiter serving food.",
-      "pose": "shocked"
+      "narration": "Picture this: it’s 2:15 in the morning. You’re finally wrapped up in your blanket, completely cozy, and slowly drifting off into a peaceful sleep. Your body is totally relaxed, your breathing slows down, and right as your brain is about to power off... BAM. A sudden, high-definition memory hits you out of nowhere.",
+      "visual_description": "A dark bedroom with soft blue moonlight filtering through the blinds. A person lies in bed under a duvet, cozy with eyes closed, before suddenly snapping their eyes wide open in sheer realization.",
+      "pose": "shocked",
+      "narrator_present": false
     },
     {
-      "narration": "If this has happened to you—and let us be honest, it probably happened to you three nights ago—I have good news and bad news. The bad news is that it feels terrible, but the good news is that you are not broken, you are not crazy, and you are definitely not alone. Psychologists actually have a fancy name for these sudden, unwanted flashbacks: Involuntary Autobiographical Memories. But while most daytime pop-up memories are pretty neutral, the ones that strike right before bed almost always feature you doing or saying something exquisitely cringey. So why does your brain turn into a mean middle-school bully the exact second your head hits the pillow?",
-      "visual_description": "The character sits up in bed under a soft spotlight, shrugging with a sympathetic smile while gesturing toward small floating polaroid photos showing various minor embarrassing moments.",
-      "pose": "explaining"
+      "narration": "Suddenly, you vividly remember that time in middle school when you waved back at someone who was actually waving at the person standing directly behind you. Your face flushes hot, you groan into your pillow, and you stare at the ceiling wondering why your own brain hates you.",
+      "visual_description": "A flashback scene in a crowded school hallway. A young teenager vigorously waves back at a classmate, only to realize the classmate was waving to a friend behind them. The teenager freezes in extreme awkwardness.",
+      "pose": "confused",
+      "narrator_present": false
     },
     {
-      "narration": "To figure out what is going on, we first have to look at what happens in your head during that cozy twilight zone between being awake and falling asleep. Scientists call this the hypnagogic state, and during this transition, the noise of the outside world finally fades away. Throughout the day, your brain is busy processing thousands of sensory inputs—emails, notifications, traffic, conversations, decisions. All that incoming data keeps your brain's main operating system fully occupied. But when you lie in the dark with no phone and no distractions, the volume on the outside world gets turned down to zero, leaving your inner thoughts playing through a mega-loud amplifier.",
-      "visual_description": "The character wears glowing neon headphones surrounded by vibrant floating sound waves, then pulls off the headphones into a pitch-black room where a giant glowing speaker turns on right beside their head.",
-      "pose": "thinking"
+      "narration": "If this has ever happened to you, don’t worry—you’re not crazy, and you’re definitely not alone. Millions of us experience these late-night cringe attacks on a regular basis. But why does our brain do this, why always at night, and is there an actual biological reason for it?",
+      "visual_description": "The warm-toned YouTube presenter sitting on a cozy living room sofa, holding a mug, looking directly at the camera with a sympathetic and warm smile.",
+      "pose": "explaining",
+      "narrator_present": true
     },
     {
-      "narration": "During the daytime, your mental security guard is a region at the front of your head called the Prefrontal Cortex. Think of this area as the stern, logical adult in the room. Its job is to keep you focused on what you are currently doing, manage your emotions, and suppress random, irrelevant thoughts. When an awkward memory tries to pop up while you are making coffee at two in the afternoon, your prefrontal cortex immediately shuts it down, saying, 'Not now, we are busy.' It sweeps the awkward moment under the rug so you can get on with your day.",
-      "visual_description": "An animated mini-character dressed as a stern security guard in a suit stands in front of a giant brain doorway, holding a clipboard and crossing arms to block chaotic glowing memory bubbles from entering.",
-      "pose": "pointing"
+      "narration": "Today, we are diving into the fascinating neuroscience and evolutionary psychology behind why your memory bank loves to replay your most awkward moments, why you feel them so intensely, and how you can actually train your brain to stop doing it.",
+      "visual_description": "A stylish motion graphic illustration showing a human head outline with glowing neon circuits and a projector lens inside the forehead replaying a small film reel of awkward moments.",
+      "pose": "pointing",
+      "narrator_present": false
     },
     {
-      "narration": "But as you get tired late at night, your prefrontal cortex starts clocking out for the evening. Its energy drops, its filtering power weakens, and the strict security guard essentially goes on break. Without that daytime filter running guard duty, all the strange, buried, and emotionally charged memories that were lurking in the background suddenly break through the front doors. It is like the nocturnal animals in a zoo taking over the park the second the security guard locks up and leaves for the night.",
-      "visual_description": "The mini security guard character punches a time clock, puts on a sleeping eye mask, and slumps asleep in a chair while chaotic cartoon memory creatures burst through the doors behind them.",
-      "pose": "confused"
+      "narration": "To understand why a ten-year-old memory can still make your face burn, we first have to talk about how your brain stores memories in the first place. Because as it turns out, not all memories are created equal inside your skull.",
+      "visual_description": "The presenter sitting at a wooden desk with colorful brain models and books, speaking directly to the viewer with engaging hand gestures.",
+      "pose": "explaining",
+      "narrator_present": true
     },
     {
-      "narration": "Now, you might wonder: if all these memories are breaking free, why do we not randomly remember that amazing ice cream we ate five years ago, or that great compliment a stranger gave us? Why is it almost always that time we accidentally called our second-grade teacher 'Mom'? That comes down to a fundamental quirk of human biology known as the Negativity Bias. Put simply, our brains are hardwired to process, store, and recall negative experiences much more vividly than positive ones.",
-      "visual_description": "The character stands between two large glowing glass jars—one labelled 'Happy Memories' overflowing with golden light that gets ignored, and one labelled 'Awkward Moments' glowing bright red that the character stares at in dismay.",
-      "pose": "explaining"
+      "narration": "Think about what you ate for lunch three weeks ago on a random Tuesday. Chances are, you have absolutely no idea. That’s because mundane, everyday details get tossed straight into the brain's mental recycling bin almost immediately.",
+      "visual_description": "A person sitting at a kitchen table looking thoughtfully at a blank calendar plate, scratching their head in confusion as a animated recycling bin icon pops up.",
+      "pose": "thinking",
+      "narrator_present": false
     },
     {
-      "narration": "From an evolutionary standpoint, this negativity bias was actually a life-saving feature, not a bug. Your ancestors living tens of thousands of years ago did not really need to remember where the prettiest flowers were in order to survive the week. But they definitely needed to remember which specific bushes had poison berries, and which dark cave had a hungry bear inside it. The ancestors who dwelt on their mistakes and remembered dangerous, negative situations were the ones who survived and passed down their genes to us.",
-      "visual_description": "A stylized caveman character sits by a campfire, looking nervous as a cartoon saber-toothed tiger silhouette lurks in the bushes behind them, while bright decorative flowers on the side are completely ignored.",
-      "pose": "thinking"
+      "narration": "But now think about the time you accidentally dropped your lunch tray in a packed cafeteria, or said 'You too!' to the movie theater worker who told you to enjoy the film. You probably remember every single detail with terrifying clarity.",
+      "visual_description": "A young adult at a movie theater concession stand taking popcorn from a worker, saying something with a nervous smile, and instantly realizing their mistake with wide eyes.",
+      "pose": "shocked",
+      "narrator_present": false
     },
     {
-      "narration": "Okay, but waving back at someone who was actually waving to the person standing behind you is NOT a saber-toothed tiger. So why does your brain treat it like a life-or-death emergency? Because to early humans, social mistakes were just as dangerous as physical predators. Millions of years ago, staying accepted by your tribe was literally your only ticket to survival. If you got banished from the group because you acted weird, violated a social norm, or made people dislike you, you had to survive in the wilderness completely alone—which was basically a death sentence.",
-      "visual_description": "The character stands in a prehistoric tribe circle, holding out an awkward fist-bump while the other cave-people look at them with baffled expressions, causing the character to sweat nervously.",
-      "pose": "shocked"
+      "narration": "You remember the exact lighting, the ambient noise, and that sudden, intense surge of heat in your chest. This happens because of a tiny almond-shaped structure deep inside your brain called the amygdala.",
+      "visual_description": "A 3D anatomical diagram of the human brain zooming in on the glowing red almond-shaped amygdala near the brainstem.",
+      "pose": "pointing",
+      "narrator_present": false
     },
     {
-      "narration": "Because of this evolutionary threat, your brain treats social blunders as critical safety warnings. In fact, brain imaging studies show that when you experience social rejection or deep embarrassment, your brain activates the exact same neural network—specifically the dorsal anterior cingulate cortex—that lights up when you experience physical pain. To your subconscious mind, waving at the wrong person does not feel like a harmless mistake; it feels like stepping on a mental Lego block.",
-      "visual_description": "A holographic brain floats beside the character, showing a specific internal region glowing bright orange-red when a picture of a stubbed toe morphs into a picture of an awkward handshake.",
-      "pose": "pointing"
+      "narration": "The amygdala is your brain’s emotional alarm system, and its main job is to tag moments with strong emotional significance so you never forget them. It acts like a high-priority filing system.",
+      "visual_description": "The presenter holding up a bright red stamp with the word 'CRITICAL' on it, stamping a file folder playfully toward the camera.",
+      "pose": "explaining",
+      "narrator_present": true
     },
     {
-      "narration": "But wait, it gets even wilder. When you recall an embarrassing memory from years ago, your brain does not just play a static video file off a hard drive. Every single time you retrieve a memory, you actually bring it into a temporary, flexible state—a process neuroscientists call reconsolidation. And if you react to that memory with intense distress and a spike of stress hormones like cortisol, your brain says, 'Aha! This memory is still extremely dangerous! Let us save it again, but this time, let us make it even more vivid for next time!'",
-      "visual_description": "The character holds a glowing video cassette tape labelled '7th Grade Speech', looking alarmed as the tape starts glowing red-hot in their hands and sizzling.",
-      "pose": "shocked"
+      "narration": "When you experience something embarrassing, your amygdala triggers a mini stress response, releasing hormones like cortisol and adrenaline. It basically stamps that memory with a huge label: 'IMPORTANT! DO NOT ERASE!'",
+      "visual_description": "An artistic comic-style graphic of a nervous brain surrounded by floating red warning stamps, lightning bolts, and tiny cortisol molecules buzzing around.",
+      "pose": "shocked",
+      "narrator_present": false
     },
     {
-      "narration": "This creates a vicious cycle. You remember the cringey thing, you feel a jolt of anxiety, your brain flags the memory as super important, and then it files it away under 'Things To Remind You About Whenever You Try To Sleep.' So the memory never fades away like normal memories do—it stays crisp, fresh, and ready to attack you five years down the road.",
-      "visual_description": "The character runs on a giant hamster wheel made of film strip reels containing awkward memories, looking exhausted as the wheel spins faster and faster.",
-      "pose": "confused"
+      "narration": "Wait, survival? How on earth is messing up a high-five in front of your coworkers a matter of life and death? To answer that, we have to travel back thousands of years to our early human ancestors.",
+      "visual_description": "The presenter standing leaning against a wall, crossing arms, looking genuinely curious and amused.",
+      "pose": "thinking",
+      "narrator_present": true
     },
     {
-      "narration": "There is also a famous psychological concept called the Zeigarnik Effect, which states that our brains hold onto unfinished business far longer than completed tasks. If you feel like an awkward moment was left 'unresolved'—like you never got to explain what you actually meant, or you never got to redeem yourself—your brain keeps that mental file marked as 'OPEN.' It stays running in the background like a heavy app eating up your phone battery.",
-      "visual_description": "The character looks at a giant computer desktop screen covered in dozens of flashing red 'UNRESOLVED_MEMORY.EXE' pop-up windows that refuse to close when clicked.",
-      "pose": "thinking"
+      "narration": "Back in hunter-gatherer times, human beings relied entirely on the tribe for survival. Being part of a group meant protection from dangerous predators, shared food, warmth, and shelter. Leaving or being kicked out was essentially a death sentence.",
+      "visual_description": "A cinematic illustration of ancient early humans gathered around a campfire at dusk, sharing food and working together in a lush prehistoric forest.",
+      "pose": "explaining",
+      "narrator_present": false
     },
     {
-      "narration": "But here is a plot twist that might actually make you feel a lot better: cringing at your past self is actually proof of personal growth! Think about it—if you looked back at something you said or did five or ten years ago and thought, 'Yep, that was totally normal and perfect,' it would mean your standards, social awareness, and maturity have not evolved at all since then. Cringing is just the tax you pay for becoming a wiser, more empathetic person than you used to be.",
-      "visual_description": "The character stands next to a height chart, looking down at a cartoon mini past version of themselves wearing silly clothing, smiling with a sense of relief and pride.",
-      "pose": "happy"
+      "narration": "Social acceptance wasn't just nice to have—it was a biological necessity. If you did something that offended the tribe, broke social norms, or made you look incompetent, you risked social rejection.",
+      "visual_description": "An ancient tribal member standing at the edge of the camp looking back worriedly as the rest of the tribe turns away, symbolizing exclusion.",
+      "pose": "thinking",
+      "narrator_present": false
     },
     {
-      "narration": "So, how do we stop these late-night cringe attacks from ruining our sleep? The first technique comes from Cognitive Behavioral Therapy and it is called 'Cognitive Defusion.' Instead of getting sucked into the memory and reliving the embarrassment, try adding a neutral frame to it. Say to yourself in your head: 'My brain is currently generating a memory from 2018.' By simply labeling the thought as a physical product of your brain rather than an ongoing crisis, you strip away its emotional power.",
-      "visual_description": "The character wears lab glasses, calmly holding up a magnifying glass to inspect a small, squeaking floating cartoon monster that represents the awkward memory, treating it like a harmless science specimen.",
-      "pose": "explaining"
+      "narration": "Because of this, our brains evolved an extreme sensitivity to social blunders. Neuroscientists have found that social pain activates the exact same neural pathways in the brain as physical pain. To your brain, embarrassment is treated like a physical wound.",
+      "visual_description": "A split screen comparing a brain scan showing pain centers lighting up from a stubbed toe on the left, and the exact same brain region lighting up from social rejection on the right.",
+      "pose": "pointing",
+      "narrator_present": false
     },
     {
-      "narration": "Another fun psychological trick is to intentionally change the soundtrack of the memory. When that horrible middle-school moment starts playing in your mind, force your brain to play upbeat circus music or comedic slide-whistle sound effects over the action. It sounds absurd, but changing the sensory context alters how your amygdala processes the memory, breaking the link between the memory and the physical panic response.",
-      "visual_description": "The character wears DJ headphones, turning a giant volume knob as colorful cartoon circus notes float around an awkward past memory, turning the dramatic moment into a slapstick comedy reel.",
-      "pose": "happy"
+      "narration": "So when you remember calling your teacher 'Mom' in fifth grade, your primitive brain isn't trying to torture you for fun. It’s reviewing a perceived social failure to ensure you never repeat it and risk getting kicked out of the tribe!",
+      "visual_description": "The presenter leaning close to the camera with an amused, empathetic expression, shrugging hands in realization.",
+      "pose": "explaining",
+      "narrator_present": true
     },
     {
-      "narration": "Finally, remind yourself of a psychological reality known as the Spotlight Effect. We all naturally assume that everyone around us is paying close attention to our mistakes and remembering them forever. But in reality, every single person you have ever met is far too busy worrying about their own embarrassing moments to remember yours! That waiter you said 'You too' to? He forgot about it three seconds later because he was worrying about his own life.",
-      "visual_description": "The character stands under a bright stadium spotlight on a dark stage, but as the camera zooms out, every single person in the crowd has their own personal spotlight shining on themselves while looking at their phones.",
-      "pose": "pointing"
+      "narration": "Okay, that explains why social mistakes feel so intensely painful, but why on earth does your brain choose 2 AM right when you're trying to go to sleep to play this cringe mixtape?",
+      "visual_description": "A bedside nightstand featuring a digital clock reading 2:07 AM, with a person sitting up in bed, looking exasperated and running a hand through their hair.",
+      "pose": "confused",
+      "narrator_present": false
     },
     {
-      "narration": "The next time your brain decides to launch a midnight premiere of your worst hits, do not panic and do not argue with it. Take a deep breath, smile, and recognize it for what it really is: just an overprotective, ancient survival system trying—and hilariously failing—to keep you safe from social danger.",
-      "visual_description": "The character sits up in bed, giving a gentle high-five to a goofy, over-enthusiastic cartoon brain wearing a tiny guard helmet.",
-      "pose": "happy"
+      "narration": "During the daytime, your brain is bombarded with external sensory inputs. You’re looking at screens, navigating traffic, talking to friends, answering emails, and deciding what to eat. Your prefrontal cortex is completely occupied with the outside world.",
+      "visual_description": "A fast-paced montage of modern daily life: typing on a laptop, walking down a noisy city street, talking on a phone, dodging traffic, and looking at bright screens.",
+      "pose": "explaining",
+      "narrator_present": false
     },
     {
-      "narration": "So go ahead, tell your brain, 'Thanks for looking out for me, but we are good now,' pull the covers back up, and get some well-deserved rest. If this ever happens to you, drop your most absurd late-night cringe memory in the comments below—let us prove to our brains that we are all in this together. Don't forget to like and subscribe for more deep dives into the weird stuff our minds do, and sweet dreams!",
-      "visual_description": "The character snuggles back down into bed with a peaceful smile, turning off a nightstand lamp as glowing warm subscribe buttons and comment bubbles gently float in the cozy darkness.",
-      "pose": "happy"
+      "narration": "This constant flood of real-time data keeps your brain's internal focus quiet. But the moment you lay down in a dark, quiet room and turn off your phone, all those external distractions disappear into total silence.",
+      "visual_description": "A smartphone screen being tapped off, plunging a dimly lit room into complete quiet dark blue night tones.",
+      "pose": "thinking",
+      "narrator_present": false
+    },
+    {
+      "narration": "With nothing left to process externally, your brain activates a special network of interconnected brain regions called the Default Mode Network, or DMN. The DMN kicks in whenever you daydream, introspect, or think about yourself.",
+      "visual_description": "A glowing visual of a human brain showing a highlighted network of connected nodes lighting up across the cortical areas in soft magenta and cyan light.",
+      "pose": "pointing",
+      "narrator_present": false
+    },
+    {
+      "narration": "Think of the Default Mode Network like an idle screensaver for your mind. When you're not actively solving a task, the DMN turns the camera inward, sifting through your past memories, your identity, and your social standing.",
+      "visual_description": "The presenter sitting comfortably in an armchair, using hand gestures to demonstrate turning a camera inward toward themselves.",
+      "pose": "explaining",
+      "narrator_present": true
+    },
+    {
+      "narration": "At the exact same time, as you get tired, your prefrontal cortex—the logical, adult part of your brain that normally says 'Hey, calm down, nobody even remembers that'—starts to power down first.",
+      "visual_description": "A humorous conceptual graphic of a tiny brain worker wearing a suit sitting at a control desk labeled 'Prefrontal Cortex', hanging up a 'Gone to Sleep' sign and turning off the lights.",
+      "pose": "happy",
+      "narrator_present": false
+    },
+    {
+      "narration": "So late at night, you have an active Default Mode Network searching your memories, an emotional alarm system ready to flare up, and zero logical supervision. It is the absolute perfect storm for a cringe attack.",
+      "visual_description": "The presenter making a dramatic 'mind blown' gesture with hands expanding near their head, looking lightheartedly shocked.",
+      "pose": "shocked",
+      "narrator_present": true
+    },
+    {
+      "narration": "To make matters even more intense, your brain uses bedtime to do essential filing work. Right before you enter deep sleep, your brain begins sifting through emotional events to decide what to keep long-term.",
+      "visual_description": "An abstract, dreamy visual of glowing memory spheres floating through a quiet starry space inside a brain silhouette.",
+      "pose": "thinking",
+      "narrator_present": false
+    },
+    {
+      "narration": "And here is the absolute wild part that neuroscientists only recently figured out: every single time you recall a memory, your brain doesn't just read a static file off a hard drive. It actually rebuilds that memory from scratch.",
+      "visual_description": "The presenter holding an old film reel, opening it up and demonstrating holding a strip of film up to the light thoughtfully.",
+      "pose": "explaining",
+      "narrator_present": true
+    },
+    {
+      "narration": "This biological phenomenon is known as memory reconsolidation. Whenever an embarrassing memory pops up, the emotional state you feel RIGHT NOW gets re-encoded into the memory, making it feel just as fresh and painful as the day it happened!",
+      "visual_description": "A digital illustration of a glowing blue memory file being opened, edited with a red glowing pen, and saved back into a vault with extra heat aura around it.",
+      "pose": "pointing",
+      "narrator_present": false
+    },
+    {
+      "narration": "If you lie in bed sweating, cringing, and beating yourself up, your brain notes: 'Wow, this memory made us panic again tonight! It must still be super dangerous! Let's keep it in the high-priority folder!'",
+      "visual_description": "A person lying in bed pulling the covers over their face in utter agony, with a cartoon panic bubble floating above their head.",
+      "pose": "confused",
+      "narrator_present": false
+    },
+    {
+      "narration": "There is also a classic psychological trick your mind is playing on you called 'The Spotlight Effect.' Psychological studies prove that we consistently overestimate how much other people notice and remember our awkward moments.",
+      "visual_description": "A person standing in the middle of a city street with a massive bright stadium spotlight shining down exclusively on them while passersby walk past ignoring them completely.",
+      "pose": "pointing",
+      "narrator_present": false
+    },
+    {
+      "narration": "In a famous experiment at Cornell University, researchers made students wear an embarrassingly loud t-shirt into a room full of strangers. The shirt wearers estimated that at least 50% of people noticed. In reality? Less than 20% even blinked.",
+      "visual_description": "A student nervously walking into a college seminar wearing a shirt with a gigantic bright yellow goofy face, while other students around desks are casually reading their textbooks without looking up.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "The absolute truth is, everyone else is way too busy worrying about their own awkward moments to remember yours! That cringey thing you did five years ago? The other people involved haven't thought about it for a single second since.",
+      "visual_description": "The presenter leaning forward smiling, pointing directly at the camera with a reassuring, friendly expression.",
+      "pose": "happy",
+      "narrator_present": true
+    },
+    {
+      "narration": "So now that we know why our brains launch these 3 AM cringe attacks, how do we actually stop them? Luckily, neuroscientists and psychologists have discovered a few simple hacks you can use right in bed.",
+      "visual_description": "A cozy bedroom setting with soft yellow accent lighting, showing a person sitting up calmly against pillows, looking relaxed.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "First, use the power of memory reconsolidation against itself. When an embarrassing memory surfaces, deliberately rewrite the scene in your head. Imagine the whole thing played back in super slow motion with silly circus music playing in the background.",
+      "visual_description": "A whimsical animated sequence replaying a clumsy fall, but in black-and-white silent movie style with funny large text cards and clown shoes added to the person.",
+      "pose": "happy",
+      "narrator_present": false
+    },
+    {
+      "narration": "By actively adding humor or absurdity to the memory while it’s open in your mind, you strip away the threat response. When your brain re-saves the memory, it stores it with a much weaker emotional charge, neutralizing the cringe for good.",
+      "visual_description": "The presenter tapping their temple intelligently while smiling, explaining the mental strategy with clear enthusiasm.",
+      "pose": "thinking",
+      "narrator_present": true
+    },
+    {
+      "narration": "Second, practice radical self-compassion. Instead of gasping and hiding under your blanket, literally whisper to yourself: 'I was younger, I was learning, and it’s totally fine.' Treat yourself with the same kindness you'd offer a friend.",
+      "visual_description": "A person in bed placing a hand gently over their heart, taking a deep, peaceful breath out and relaxing their shoulders onto the pillow.",
+      "pose": "happy",
+      "narrator_present": false
+    },
+    {
+      "narration": "Third, use the five-second rule for attention. Give the memory five seconds of recognition, thank your ancient brain for trying to protect your social survival, and then deliberately shift your focus to a calming mental image, like walking through a quiet pine forest.",
+      "visual_description": "A serene, beautiful first-person perspective shot walking slowly through a sunlit, peaceful pine forest with soft fog.",
+      "pose": "explaining",
+      "narrator_present": false
+    },
+    {
+      "narration": "The next time your brain decides to hit play on your personal blooper reel at midnight, take a deep breath. Smile, remember that your brain is just an overprotective ancient system doing its job, and gently change the channel.",
+      "visual_description": "The presenter smiling warmly, sitting relaxed on the couch, giving a friendly thumbs up to the camera.",
+      "pose": "happy",
+      "narrator_present": true
+    },
+    {
+      "narration": "If you enjoyed this video and felt called out by it, hit that like button and subscribe for more deep dives into the weird things our minds do every day. Drop your funniest cringe memory in the comments below—let's share the pain!",
+      "visual_description": "An end screen design featuring the presenter smiling next to animated 'Subscribe' and 'Next Video' graphic buttons.",
+      "pose": "pointing",
+      "narrator_present": true
     }
   ]
 }
