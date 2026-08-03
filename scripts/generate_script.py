@@ -49,13 +49,25 @@ contagious" unless you have a fresh angle).
 Write a script meant to be narrated aloud for 10-15 minutes (roughly
 1400-2000 spoken words total across all scenes).
 
-Break it into 16-20 scenes. Each scene is a short narration chunk (3-6
-sentences, natural spoken pacing) paired with a detailed visual
-description of what should be illustrated: describe the specific
-action/moment/scene the character should be depicted doing or reacting
-to, matching that exact part of the story (not just a generic pose).
-Also include a "pose" tag from this exact list purely as a fallback
-label: explaining, shocked, thinking, pointing, happy, confused.
+Break it into 30-40 scenes so the visuals change frequently and the
+video doesn't feel static — each scene is a SHORT narration chunk
+(1-3 sentences, natural spoken pacing) paired with a detailed visual
+description.
+
+For each visual description: describe whatever the story actually
+calls for at that exact moment — this might be the narrator character
+alone reacting, but it might just as easily be two friends talking,
+a crowd of people, a doctor and patient, a classroom, an object or
+diagram, a historical scene, etc. Depict the content of that specific
+sentence, not a default "narrator reacting to camera" pose repeated
+every time. Only include the recurring narrator character when the
+narration is him personally speaking/reacting directly (roughly a
+third to half of scenes) — the rest should illustrate the actual
+subject matter, people, and situations being described, with as many
+people/characters in frame as the story naturally calls for. Also
+include a "pose" tag from this exact list purely as a fallback label,
+only meaningful for scenes where the narrator character appears:
+explaining, shocked, thinking, pointing, happy, confused.
 
 Respond with ONLY valid JSON, no markdown fences, no commentary, in
 exactly this shape:
@@ -65,7 +77,7 @@ exactly this shape:
   "thumbnail_text_top": "SHORT PUNCHY HOOK IN CAPS (under 6 words)",
   "thumbnail_text_bottom": "SHORT SUBTITLE IN CAPS (under 5 words)",
   "scenes": [
-    {"narration": "...", "visual_description": "detailed scene-specific action description", "pose": "explaining"}
+    {"narration": "...", "visual_description": "detailed scene-specific description of exactly who/what should be shown", "pose": "explaining", "narrator_present": true}
   ]
 }
 """
@@ -90,7 +102,11 @@ def list_available_models():
 def call_gemini(prompt: str) -> str:
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.9, "maxOutputTokens": 8192}
+        "generationConfig": {
+            "temperature": 0.9,
+            "maxOutputTokens": 8192,
+            "responseMimeType": "application/json",
+        }
     }).encode("utf-8")
 
     req = urllib.request.Request(
@@ -122,15 +138,25 @@ def validate(script: dict) -> dict:
         assert scene.get("visual_description"), "Scene missing visual_description"
         if scene.get("pose") not in ALLOWED_POSES:
             scene["pose"] = "explaining"  # safe fallback
+        scene.setdefault("narrator_present", True)
     script.setdefault("thumbnail_text_top", script["title"].upper()[:40])
     script.setdefault("thumbnail_text_bottom", "")
     return script
 
 
 def main():
-    raw = call_gemini(PROMPT)
-    script = extract_json(raw)
-    script = validate(script)
+    last_error = None
+    for attempt in range(1, 4):
+        try:
+            raw = call_gemini(PROMPT)
+            script = extract_json(raw)
+            script = validate(script)
+            break
+        except (json.JSONDecodeError, AssertionError) as e:
+            last_error = e
+            print(f"Attempt {attempt} produced invalid script ({e}), retrying...")
+    else:
+        raise RuntimeError(f"Failed to get a valid script after 3 attempts: {last_error}")
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
@@ -142,4 +168,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
